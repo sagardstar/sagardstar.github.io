@@ -20,7 +20,7 @@ author: Sagar Wadhwa
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  About Me: "index"
   Blog:
     - Finance: "finance"
     - Econ Research: "econ_research"
@@ -262,7 +262,7 @@ timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 0
+paginate: 5
 
 kramdown:
   input: GFM
