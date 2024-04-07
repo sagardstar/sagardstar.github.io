@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ECON POST 2
+title: FINANCE POST 2
 subtitle: There's lots to learn!
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
