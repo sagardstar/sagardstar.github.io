@@ -22,8 +22,8 @@ author: Sagar Wadhwa
 navbar-links:
   About Me: "aboutme"
   Blog:
-    - Finance: "/blog_categories/finance"
-    - Econ Research: "/blog_categories/econ_research"
+    - Finance: "/blog_categories/finance.md"
+    - Econ Research: "/blog_categories/econ_research.md"
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
     # - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
