@@ -272,7 +272,7 @@ kramdown:
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "finance"
     values:
       layout: "post"
       comments: true # add comments to all blog posts
