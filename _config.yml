@@ -263,7 +263,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
-paginate_path: "/finance/page:num/"
+# paginate_path: "/finance/page:num/"
 
 kramdown:
   input: GFM
