@@ -13,15 +13,15 @@
 title: Sagar Wadhwa
 
 # Your name to show in the footer
-author: Sagar Wadhwa
+# author: Sagar Wadhwa
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "index"
-  Blog:
+  # About Me: "index"
+  Blog Posts:
     - Finance: "finance"
     - Econ Research: "econ_research"
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
