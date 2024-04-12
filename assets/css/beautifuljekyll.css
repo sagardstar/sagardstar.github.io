@@ -32,10 +32,18 @@ p {
   line-height: 1.5;
   margin: 1.875rem 0;
 }
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Existence-StencilLight';
+h1,h2,h3 {
+  font-family: 'Existence-StencilLight', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
+  color: rgb(0, 180, 161);
+}
+
+h4,h5,h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
+  color: rgb(0, 180, 161);
 }
 
 @font-face {
@@ -135,7 +143,7 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col | default: "#EAEAEA" }};
+  background-color: {{ site.navbar-col | default: rgb(0, 180, 161) }};
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
@@ -394,7 +402,8 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: {{ site.footer-col | default: "#EAEAEA" }};
+  background-color: rgb(0, 180, 161);
+  /* background-color: {{ site.footer-col | default: "#EAEAEA" }}; */
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;
