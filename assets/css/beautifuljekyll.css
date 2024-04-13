@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Font Awesome 5 Brands';
   font-size: 1.125rem;
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
@@ -32,7 +32,14 @@ p {
   line-height: 1.5;
   margin: 1.875rem 0;
 }
-h1,h2,h3 {
+h1 {
+  font-family: 'Existence-StencilLight', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  line-height: 1.1;
+  color: rgb(6, 123, 159);
+}
+
+h2,h3 {
   font-family: 'Existence-StencilLight', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
@@ -143,9 +150,9 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: {{ site.navbar-col | default: "#EAEAEA" }};
+  background-color:{{ site.navbar-col | default: "#00b4a1" }}; 
   border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: sans-serif, 'Open Sans', 'Helvetica Neue', Helvetica, Arial;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
     background-attachment: fixed;
@@ -280,7 +287,7 @@ img {
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   padding: 0.625rem;
-  background-color: {{ site.navbar-col | default: "#EAEAEA" }};
+  background-color: {{ site.navbar-col | default: "#00b4a1" }};
   text-decoration: none !important;
   font-weight: normal;
   color: {{ site.navbar-text-col | default: "#404040" }};
@@ -333,8 +340,9 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: {{ site.hover-col | default: "#0085A1" }};
+  color: {{ site.navbar-hover-col | default: "#0085A1" }};
 }
+
 
 .navbar-custom .avatar-container {
   position: absolute;
@@ -403,6 +411,7 @@ footer {
   margin-top: 3.125rem;
   font-size: 0.875rem;
   background-color: {{ site.footer-col | default: "#EAEAEA" }};
+  background: rgb(0, 180, 161);
   {% if site.footer-img %}
     background-image: url({{ site.footer-img | relative_url }});
     background-attachment: fixed;

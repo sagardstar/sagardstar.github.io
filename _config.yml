@@ -22,7 +22,7 @@ title: Sagar Wadhwa
 navbar-links:
   # About Me: "index"
   Blog Posts:
-    - Finance: "finance"
+    - Finances: "finance"
     - Econ Research: "econ_research"
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
     # - Learn markdown: "https://www.markdowntutorial.com/"
@@ -133,18 +133,19 @@ navbar-var-length: false
 ######################################
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
-
-navbar-col: "#EAEAEA"
+navbar-col: "#00B4A1"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#404040"
-link-col: "#008AFF"
+link-col: "#E0555A"
+# "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
+footer-col: "#00b4a1"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
+navbar-hover-col: "#ffffff"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -275,7 +276,7 @@ defaults:
     values:
       layout: "post"
       comments: true # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
   - scope:
       path: "" # any file that's not a post will be a "page" layout by default
     values:
