@@ -1,0 +1,48 @@
+---
+layout: page
+title: Book Club
+subtitle: Sharing books I finished and enjoyed
+---
+
+<!-- Hello finance!!!! -->
+
+<p>
+  Here, I write about books I have finished and enjoyed reading. Hopefully, it
+  would give you a glimpse of the book and allow you to see if you are
+  interested in reading it, while also keeping me accountable to finish more
+  books rather than leaving them incomplete.
+</p>
+<!-- 
+<ul>
+  {% for post in site.categories.finance %}
+  <li class="spaced">
+    <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date |
+    date_to_long_string }}
+  </li>
+  {% endfor %}
+</ul> -->
+
+<!-- <meta property="og:image" content="{{ post.thumbnail }}"> -->
+
+<div class="posts-list">
+  {% for post in site.categories.books %}
+  <article class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      <h2 class="post-title">{{ post.title }}</h2>
+
+      {% if post.subtitle %}
+      <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+      {% endif %}
+    </a>
+
+    <p class="post-meta">Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
+
+    <div class="post-entry">
+      {{ post.content | truncatewords: 50 | strip_html | xml_escape}}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more"
+        >[Read&nbsp;More]</a
+      >
+    </div>
+  </article>
+  {% endfor %}
+</div>

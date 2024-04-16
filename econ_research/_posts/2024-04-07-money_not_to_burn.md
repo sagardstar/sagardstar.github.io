@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Money Not To Burn
-subtitle: Excerpt from Soulshaping by Jeff Brown
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
-tags: [books, test]
-author: Sharon Smith and Barry Simpson
+subtitle: Can paying farmers reduce crop residue burning?
+# cover-img: /assets/img/path.jpg
+# thumbnail-img: /assets/img/thumb.png
+# share-img: /assets/img/path.jpg
+tags: [India, Pollution, Development Economics, Research, Cash Transfers]
+# author: Sharon Smith and Barry Simpson
 ---
 
 <!-- # Paper discussion series: Paying money not to burn -->

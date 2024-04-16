@@ -21,9 +21,11 @@ title: Sagar Wadhwa
 
 navbar-links:
   # About Me: "index"
-  Blog Posts:
-    - Finances: "finance"
-    - Econ Research: "econ_research"
+  Blog Categories:
+    - Personal Finance: "/categories/finance"
+    - Economics Research: "/categories/econ_research"
+    - Books: "/categories/books"
+    - Miscellaneous: "/categories/misc"
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
     # - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
