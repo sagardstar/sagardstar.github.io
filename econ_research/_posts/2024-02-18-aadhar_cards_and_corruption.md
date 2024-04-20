@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Can Digital Authentication reduce Corruption?
+title: Can Digital Authentication Reduce Corruption?
 subtitle: Lessons from use of Aadhar Cards in Public Distribution System
 # cover-img: /assets/img/path.jpg
 # thumbnail-img: /assets/img/thumb.png
