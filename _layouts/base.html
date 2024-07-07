@@ -21,19 +21,20 @@ common-js:
 
 <!DOCTYPE html>
 <html lang="{{ page.language | default: site.language | default: 'en' }}">
-<!-- Beautiful Jekyll 6.0.1 | Copyright Dean Attali 2023 -->
-{% include head.html %}
+  <!-- Beautiful Jekyll 6.0.1 | Copyright Dean Attali 2023 -->
+  {% include head.html %}
 
-<body>
-  {% include gtm_body.html %}
+  <head>
+    <!-- Other head content -->
+    <script
+      type="text/javascript"
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+    ></script>
+  </head>
 
-  {% include nav.html %}
-
-  {{ content }}
-
-  {% include footer.html %}
-
-  {% include footer-scripts.html %}
-
-</body>
+  <body>
+    {% include gtm_body.html %} {% include nav.html %} {{ content }} {% include
+    footer.html %} {% include footer-scripts.html %}
+  </body>
 </html>

@@ -21,11 +21,14 @@ title: Sagar Wadhwa
 
 navbar-links:
   # About Me: "index"
+  Research: "research"
   Blog Categories:
     - Personal Finance: "/categories/finance"
     - Economics Research: "/categories/econ_research"
     - Books: "/categories/books"
     - Miscellaneous: "/categories/misc"
+  Contact:
+    "contact"
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
     # - Learn markdown: "https://www.markdowntutorial.com/"
   # Author's home: "https://deanattali.com"
@@ -112,6 +115,8 @@ excerpt_length: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
+
+# mathjax: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
 feed_show_tags: true
