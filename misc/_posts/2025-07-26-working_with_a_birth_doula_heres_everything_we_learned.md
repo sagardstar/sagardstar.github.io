@@ -1,25 +1,25 @@
 ---
 layout: post
 title: "Working with a birth doula: here's everything we learned"
-subtitle: "When my wife and I were preparing for the birth of our first child (who arrived in Jan this year), we had never even heard the word doula. A friend&#8212;American, already a parent&#8212;brought it up when we were confused about whether we should be looking for a doctor or a midwife, and what even comes first: picking a hospital or a doctor? She casually said, &#8220;If I had another baby, I&#8217;d definitely hire a doula.&#8221;"
-tags: []
+subtitle: ""
+tags: [doula, personal experience, pregnancy]
 ---
 
-When my wife and I were preparing for the birth of our first child (who arrived in Jan this year), we had never even heard the word *doula*. A friend—American, already a parent—brought it up when we were confused about whether we should be looking for a doctor or a midwife, and what even comes first: picking a hospital or a doctor? She casually said, “If I had another baby, I’d definitely hire a doula.”
+When my wife and I were preparing for the birth of our first child (who arrived in Jan this year), we had never even heard the word _doula_. A friend—American, already a parent—brought it up when we were confused about whether we should be looking for a doctor or a midwife, and what even comes first: picking a hospital or a doctor? She casually said, “If I had another baby, I’d definitely hire a doula.”
 
-We were both confused. Was that an English word? “Doula”? Or was it *adoula*? We weren’t sure, and spent a few minutes verifying that it was, in fact, a thing.
+We were both confused. Was that an English word? “Doula”? Or was it _adoula_? We weren’t sure, and spent a few minutes verifying that it was, in fact, a thing.
 
 From what we gathered, a doula isn’t a medical professional, but someone who offers emotional and physical support during labor and delivery. There are actually two types: birth doulas, who support during labor, and postpartum doulas who support after birth. Still, we weren’t quite convinced. A relative connected us with an OBGYN in the U.S., and when we asked her about it, her reaction was skeptical: “Why would you need a doula? They’re not even medically trained.”
 
 We left it at that.
 
-But a few weeks later, I found myself reading *[The Birth Partner](https://www.amazon.com/Birth-Partner-5th-Childbirth-Companions/dp/1558329102)*, trying to prepare for my role. The book goes deep—stages of labor, support strategies, what the birthing person might experience, and what the partner is supposed to do, and also, what the partner might be going through during labor. I was only a few chapters in and already feeling overwhelmed.
+But a few weeks later, I found myself reading _[The Birth Partner](https://www.amazon.com/Birth-Partner-5th-Childbirth-Companions/dp/1558329102)_, trying to prepare for my role. The book goes deep—stages of labor, support strategies, what the birthing person might experience, and what the partner is supposed to do, and also, what the partner might be going through during labor. I was only a few chapters in and already feeling overwhelmed.
 
-Slowly, I started getting convinced that a doula might actually be helpful. I was struggling just *reading* about labor—how would I show up calmly and effectively during the real thing? Plus the book also kept highlighting how and where a doula might be helpful in the process.
+Slowly, I started getting convinced that a doula might actually be helpful. I was struggling just _reading_ about labor—how would I show up calmly and effectively during the real thing? Plus the book also kept highlighting how and where a doula might be helpful in the process.
 
 Around that time, I was also reading [Expecting Better](https://www.amazon.com/Expecting-Better-Conventional-Pregnancy-Wrong/dp/0143125702) by [Emily Oster](https://en.wikipedia.org/wiki/Emily_Oster)—who had been one of my professors at Brown, so there was some trust factor. She wrote that they had hired a doula, and that her husband [Jesse Shapiro](https://shapiro.scholars.harvard.edu/) (also my professor, and honestly someone I trust even more than Emily!) had initially been skeptical, but later called it the best decision they made. That pushed me further over the fence.
 
-I began nudging my wife towards the idea. She hadn’t read *The Birth Partner* or been following my mini-research spree, so it felt a bit out of the blue to her. But after a bit of convincing, she gave me the green light to start the doula search.
+I began nudging my wife towards the idea. She hadn’t read _The Birth Partner_ or been following my mini-research spree, so it felt a bit out of the blue to her. But after a bit of convincing, she gave me the green light to start the doula search.
 
 ## The Search: Where Do You Even Begin?
 
@@ -29,12 +29,12 @@ I sent out messages to about five doulas. A couple of them replied that our hosp
 
 We weren’t sure what to ask in those first calls. So, after some Reddit rabbit holes, we came up with a list:
 
-* What’s your pain management approach?
-* Do you have a backup doula? How often have you needed one?
-* How many births do you take per month?
-* When do you typically arrive at the hospital?
-* How long do you stay?
-* Do you offer prenatal visits, and what happens in those?
+- What’s your pain management approach?
+- Do you have a backup doula? How often have you needed one?
+- How many births do you take per month?
+- When do you typically arrive at the hospital?
+- How long do you stay?
+- Do you offer prenatal visits, and what happens in those?
 
 The first call we had was... rough. The doula spoke over us, gave way too much unsolicited advice, and seemed to assume we were clueless. We knew within five minutes that she wasn’t the one. Thankfully, we didn’t let that experience deter us and went ahead with the rest of the video calls.
 
@@ -70,18 +70,18 @@ After it was all over, my wife told family and friends: “Hiring a doula was th
 
 Looking back, here’s what I’d tell myself—or anyone else navigating this for the first time:
 
-* You don’t need to be sure right away. It’s okay to learn and explore as you go.
-* Doulas aren’t medical professionals, but they offer support that no one else in the room is quite positioned to give—especially if you're navigating a new system or culture.
-* A vibe check is everything. You want someone who listens, who feels like a calm presence, and who fits with *you*.
-* Do multiple intro calls. You learn a lot about what you want just by speaking to people.
-* Start early-ish (we began around 7 months), but don’t stress about the timeline.
-* They can also help you prepare—summarizing what books might say, helping you ask the right questions, and walking you through what to expect.
+- You don’t need to be sure right away. It’s okay to learn and explore as you go.
+- Doulas aren’t medical professionals, but they offer support that no one else in the room is quite positioned to give—especially if you're navigating a new system or culture.
+- A vibe check is everything. You want someone who listens, who feels like a calm presence, and who fits with _you_.
+- Do multiple intro calls. You learn a lot about what you want just by speaking to people.
+- Start early-ish (we began around 7 months), but don’t stress about the timeline.
+- They can also help you prepare—summarizing what books might say, helping you ask the right questions, and walking you through what to expect.
 
 ## For Anyone Starting This Journey
 
 If you’re wondering whether to hire a doula—especially as a partner—and you’re not sure how you’ll show up in that moment, don’t rule it out just because it feels unfamiliar.
 
-It might just be the best thing *you* do, too.
+It might just be the best thing _you_ do, too.
 
 Thank you for reading!
 
