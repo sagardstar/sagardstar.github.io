@@ -300,6 +300,8 @@ exclude:
   - screenshot.png
   - docs/
 
+# jekyll-paginate-v2 requires a custom build workflow since it is not
+# supported by the default GitHub Pages builder.
 plugins:
   - jekyll-paginate-v2
   - jekyll-sitemap
