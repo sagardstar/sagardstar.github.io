@@ -8,6 +8,7 @@ pagination:
   per_page: 10
   sort_field: date
   sort_reverse: true
+  permalink: /page/:num/
   trail:
     before: 2
     after: 2
@@ -16,7 +17,8 @@ pagination:
 <p>Here are all the posts from every category:</p>
 
 <div class="posts-list">
-  {% for post in paginator.posts %}
+  {% assign posts = paginator.posts | default: site.posts %}
+  {% for post in posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
       <h2 class="post-title">{{ post.title }}</h2>
@@ -56,4 +58,3 @@ pagination:
   {% endif %}
 </ul>
 {% endif %}
-

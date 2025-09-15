@@ -300,6 +300,10 @@ exclude:
   - screenshot.png
   - docs/
 
+# Enable jekyll-paginate-v2 globally so page-level pagination works consistently
+pagination:
+  enabled: true
+
 # jekyll-paginate-v2 requires a custom build workflow since it is not
 # supported by the default GitHub Pages builder.
 plugins:
@@ -307,4 +311,3 @@ plugins:
   - jekyll-sitemap
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
