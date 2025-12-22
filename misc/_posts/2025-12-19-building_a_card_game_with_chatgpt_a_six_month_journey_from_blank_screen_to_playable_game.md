@@ -22,7 +22,7 @@ I ran it.
 
 Blank screen. No cards, nothing. Just errors in terminal I didn’t understand, talking about JavaScript and HTML—languages I’d never learned and couldn’t distinguish between.
 
-[![](/assets/posts/2025-12-19-building_a_card_game_with_chatgpt_a_six_month_journey_from_blank_screen_to_playable_game/https3a2f2fsubstack_post_medias3amazonawscom2fpublic2fimages2fd58539bd_c0a1_4ce1_89e5_037f2db2c02a_2816x1536.png)](https://substackcdn.com/image/fetch/$s_!1lra!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd58539bd-c0a1-4ce1-89e5-037f2db2c02a_2816x1536.png)
+![Gemini-generated illustration]({{ '/assets/posts/2025-12-19-building_a_card_game_using_chatgpt/gemini_image.jpg' | relative_url }})
 
 Created using Gemini
 
@@ -72,7 +72,7 @@ When I invited friends who knew the game to test it out, the first online playte
 
 The second playtest went better. By then, I’d fixed several bugs through more Codex sessions. The game flowed more smoothly. My friends could actually play without constant interruptions. They also seemed genuinely impressed. “You built this in JavaScript and HTML?” they asked. “Yes,” I admitted. “Though I still can’t really explain the difference between them.”
 
-[![](/assets/posts/2025-12-19-building_a_card_game_with_chatgpt_a_six_month_journey_from_blank_screen_to_playable_game/https3a2f2fsubstack_post_medias3amazonawscom2fpublic2fimages2fd4fa18c3_b600_40c7_ad36_fd55cc8bed3f_3024x1212.png)](https://substackcdn.com/image/fetch/$s_!telg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4fa18c3-b600-40c7-ad36-fd55cc8bed3f_3024x1212.png)
+![Current UI of the game]({{ '/assets/posts/2025-12-19-building_a_card_game_using_chatgpt/ui_image.jpg' | relative_url }})
 
 Current UI of the game
 
