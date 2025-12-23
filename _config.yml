@@ -23,6 +23,7 @@ navbar-links:
   # About Me: "index"
   Research: "research"
   Blog Categories:
+    - All: "/categories/all"
     - Personal Finance: "/categories/finance"
     - Economics Research: "/categories/econ_research"
     - Books: "/categories/books"
@@ -270,7 +271,6 @@ timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
 
 kramdown:
   input: GFM
@@ -300,9 +300,14 @@ exclude:
   - screenshot.png
   - docs/
 
+# Enable jekyll-paginate-v2 globally so page-level pagination works consistently
+pagination:
+  enabled: true
+
+# jekyll-paginate-v2 requires a custom build workflow since it is not
+# supported by the default GitHub Pages builder.
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-
