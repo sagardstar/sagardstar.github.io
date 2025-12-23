@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Beautiful Jekyll 6.0.1 | Copyright Dean Attali 2023 -->
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  
+
+  <title>Fermat&apos;s Last Theorem | Sagar Wadhwa</title>
+
+  
+  
+
+  <meta name="description" content="Recently, I finished reading the book, Fermat’s Last Theorem by Simon Singh, and loved it a lot. This is the first book I have completed in a long time, so that felt good. It’s also the first time I have read a book related to mathematics which is not a text book. Actually,...">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="Sagar Wadhwa">
+  <meta property="og:title" content="Fermat&apos;s Last Theorem | Sagar Wadhwa">
+  <meta property="og:description" content="Recently, I finished reading the book, Fermat’s Last Theorem by Simon Singh, and loved it a lot. This is the first book I have completed in a long time, so that felt good. It’s also the first time I have read a book related to mathematics which is not a text book. Actually,...">
+
+  
+  <meta property="og:image" content="/assets/img/sagar_photo.jpeg">
+  
+
+  
+  <meta property="og:type" content="article">
+  
+  <meta property="og:article:published_time" content="2024-06-16T00:00:00-04:00">
+  <meta property="og:url" content="/2024-06-16-fermats_last_theorem/">
+  <link rel="canonical" href="/2024-06-16-fermats_last_theorem/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@sagarwadhwa92">
+  <meta name="twitter:creator" content="@sagarwadhwa92">
+
+  <meta property="twitter:title" content="Fermat&apos;s Last Theorem | Sagar Wadhwa">
+  <meta property="twitter:description" content="Recently, I finished reading the book, Fermat’s Last Theorem by Simon Singh, and loved it a lot. This is the first book I have completed in a long time, so that felt good. It’s also the first time I have read a book related to mathematics which is not a text book. Actually,...">
+
+  
+  <meta name="twitter:image" content="/assets/img/sagar_photo.jpeg">
+  
+
+  
+
+
+  
+
+  
+  
+
+  
+
+</head>
+
+
+  <head>
+    <!-- Other head content -->
+    <script
+      type="text/javascript"
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+    ></script>
+  </head>
+
+  <body>
+    
+ <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="/">Sagar Wadhwa</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/research">Research</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog Categories</a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/categories/all">All</a>
+                  <a class="dropdown-item" href="/categories/finance">Personal Finance</a>
+                  <a class="dropdown-item" href="/categories/econ_research">Economics Research</a>
+                  <a class="dropdown-item" href="/categories/books">Books</a>
+                  <a class="dropdown-item" href="/categories/misc">Miscellaneous</a>
+            </div>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li></ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/sagar_photo.jpeg" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+        { \
+          "title"    : "Building a Card Game with ChatGPT: A Six-Month Journey from Blank Screen to Playable Game", \
+          "desc"     : "Building a Card Game with ChatGPT: A Six-Month Journey from Blank Screen to Playable Game", \
+          "category" : "", \
+          "url"      : "/2025-12-19-building_a_card_game_with_chatgpt_a_six_month_journey_from_blank_screen_to_playable_game/", \
+          "date"     : "December 19, 2025" \
+        }, \
+       \
+        { \
+          "title"    : "Working with a birth doula: here&#39;s everything we learned", \
+          "desc"     : "Working with a birth doula: here&#39;s everything we learned", \
+          "category" : "doulapersonal experiencepregnancy", \
+          "url"      : "/2025-07-26-working_with_a_birth_doula_heres_everything_we_learned/", \
+          "date"     : "July 26, 2025" \
+        }, \
+       \
+        { \
+          "title"    : "The PARA method of digital organization", \
+          "desc"     : "The PARA method of digital organization", \
+          "category" : "", \
+          "url"      : "/2024-11-11-the_para_method_of_digital_organization/", \
+          "date"     : "November 11, 2024" \
+        }, \
+       \
+        { \
+          "title"    : "Book of the Month: The Go-Giver", \
+          "desc"     : "Book of the Month: The Go-Giver", \
+          "category" : "", \
+          "url"      : "/2024-09-29-book_of_the_month_the_go_giver/", \
+          "date"     : "September 29, 2024" \
+        }, \
+       \
+        { \
+          "title"    : "Gap and the Gain", \
+          "desc"     : "Gap and the Gain", \
+          "category" : "HappinessComparison", \
+          "url"      : "/2024-08-24-gap_and_the_gain/", \
+          "date"     : "August 24, 2024" \
+        }, \
+       \
+        { \
+          "title"    : "Fermat&#39;s Last Theorem", \
+          "desc"     : "Fermat&#39;s Last Theorem", \
+          "category" : "Book of the monthMathematics", \
+          "url"      : "/2024-06-16-fermats_last_theorem/", \
+          "date"     : "June 16, 2024" \
+        }, \
+       \
+        { \
+          "title"    : "A Decade Since College", \
+          "desc"     : "A Decade Since College", \
+          "category" : "CollegeMemoriesPersonalNostalgiaSt. Stephen's College", \
+          "url"      : "/2024-06-03-ten_years_since_college/", \
+          "date"     : "June  3, 2024" \
+        }, \
+       \
+        { \
+          "title"    : "Changing Gender Attitudes Through School Programs", \
+          "desc"     : "Changing Gender Attitudes Through School Programs", \
+          "category" : "IndiaGenderDevelopment EconomicsResearchSchool programs", \
+          "url"      : "/2024-05-19-gender_attitudes/", \
+          "date"     : "May 19, 2024" \
+        }, \
+       \
+        { \
+          "title"    : "A Guide to Journaling", \
+          "desc"     : "A Guide to Journaling", \
+          "category" : "WritingJournalingDay One app", \
+          "url"      : "/2024-04-19-a_guide_to_journaling/", \
+          "date"     : "April 19, 2024" \
+        }, \
+       \
+        { \
+          "title"    : "Money Not To Burn", \
+          "desc"     : "Money Not To Burn", \
+          "category" : "IndiaPollutionDevelopment EconomicsResearchCash Transfers", \
+          "url"      : "/2024-04-07-money_not_to_burn/", \
+          "date"     : "April  7, 2024" \
+        }, \
+       \
+        { \
+          "title"    : "Can Digital Authentication Reduce Corruption?", \
+          "desc"     : "Can Digital Authentication Reduce Corruption?", \
+          "category" : "IndiaPublic Distribution SystemJharkhandDevelopment EconomicsCorruption", \
+          "url"      : "/2024-02-18-aadhar_cards_and_corruption/", \
+          "date"     : "February 18, 2024" \
+        }, \
+       \
+        { \
+          "title"    : "Twelfth Fail", \
+          "desc"     : "Twelfth Fail", \
+          "category" : "Book of the monthUPSC", \
+          "url"      : "/2024-01-07-twelfth_fail/", \
+          "date"     : "January  7, 2024" \
+        }, \
+       \
+        { \
+          "title"    : "Three Days a Week is still a Habit", \
+          "desc"     : "Three Days a Week is still a Habit", \
+          "category" : "ProductivityAtomic Habits", \
+          "url"      : "/2023-10-07-three_days_is_still_a_habit/", \
+          "date"     : "October  7, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Generations", \
+          "desc"     : "Generations", \
+          "category" : "Book of the monthGenerationsMillennialsGen Z", \
+          "url"      : "/2023-09-02-generations/", \
+          "date"     : "September  2, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Seva", \
+          "desc"     : "Seva", \
+          "category" : "Book of the monthServiceSikhs", \
+          "url"      : "/2023-06-30-seva_sikh_secrets/", \
+          "date"     : "June 30, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Here, There and Everywhere", \
+          "desc"     : "Here, There and Everywhere", \
+          "category" : "Book of the monthDharamshala", \
+          "url"      : "/2023-02-26-here_there_and_everywhere/", \
+          "date"     : "February 26, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Kindle, Your Portable Personal Library", \
+          "desc"     : "Kindle, Your Portable Personal Library", \
+          "category" : "ReadingDevicesBooksTablets", \
+          "url"      : "/2023-02-04-kindle_your_portable_personal_library/", \
+          "date"     : "February  4, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Individual Stocks Vs Index Funds", \
+          "desc"     : "Individual Stocks Vs Index Funds", \
+          "category" : "InvestingStock marketIndex funds", \
+          "url"      : "/2022-12-25-individual_stocks_vs_index_funds/", \
+          "date"     : "December 25, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "My Favorite Kitchen Appliance", \
+          "desc"     : "My Favorite Kitchen Appliance", \
+          "category" : "Kitchen equipmentElectric cooker", \
+          "url"      : "/2022-11-22-my_favorite_appliance/", \
+          "date"     : "November 22, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Magic Of Compounding", \
+          "desc"     : "Magic Of Compounding", \
+          "category" : "InvestingMoney", \
+          "url"      : "/2022-10-02-magic_of_compounding/", \
+          "date"     : "October  2, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "How I Started Investing Money", \
+          "desc"     : "How I Started Investing Money", \
+          "category" : "InvestingStock market", \
+          "url"      : "/2022-05-01-how_I_started_investing_money/", \
+          "date"     : "May  1, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Do Deadlines Help?", \
+          "desc"     : "Do Deadlines Help?", \
+          "category" : "ProductivityPersonal Kanban", \
+          "url"      : "/2022-04-22-do_deadlines_help/", \
+          "date"     : "April 22, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Moving To-Do To-Done", \
+          "desc"     : "Moving To-Do To-Done", \
+          "category" : "ProductivityKanban boardTo-do lists", \
+          "url"      : "/2022-03-25-moving_todo_to_done/", \
+          "date"     : "March 25, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Paying Yourself First", \
+          "desc"     : "Paying Yourself First", \
+          "category" : "ProductivityTime ManagementHappiness", \
+          "url"      : "/2022-03-09-paying_yourself_first/", \
+          "date"     : "March  9, 2022" \
+        }, \
+       \
+        { \
+          "title"    : "Freedom-in-Attention", \
+          "desc"     : "Freedom-in-Attention", \
+          "category" : "WealthHappiness", \
+          "url"      : "/2022-02-23-freedom_in_attention/", \
+          "date"     : "February 23, 2022" \
+        }, \
+       \
+       \
+        { \
+          "title"    : "Book Club", \
+          "desc"     : "Book Club", \
+          "category" : "page", \
+          "url"      : "/categories/books/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Contact", \
+          "desc"     : "Contact", \
+          "category" : "page", \
+          "url"      : "/contact/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Unpacking Economics", \
+          "desc"     : "Unpacking Economics", \
+          "category" : "page", \
+          "url"      : "/categories/econ_research/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Money and Us", \
+          "desc"     : "Money and Us", \
+          "category" : "page", \
+          "url"      : "/categories/finance/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "About me", \
+          "desc"     : "About me", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Miscellaneous", \
+          "desc"     : "Miscellaneous", \
+          "category" : "page", \
+          "url"      : "/categories/misc/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Research", \
+          "desc"     : "Research", \
+          "category" : "page", \
+          "url"      : "/research/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Tag Index", \
+          "desc"     : "Tag Index", \
+          "category" : "page", \
+          "url"      : "/tags/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "All Posts", \
+          "desc"     : "All Posts", \
+          "category" : "page", \
+          "url"      : "/categories/all/index.html", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "All Posts - page 2", \
+          "desc"     : "All Posts - page 2", \
+          "category" : "page", \
+          "url"      : "/categories/all/categories/all/page/2/index.html", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "All Posts - page 3", \
+          "desc"     : "All Posts - page 3", \
+          "category" : "page", \
+          "url"      : "/categories/all/categories/all/page/3/index.html", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "All Posts - page 4", \
+          "desc"     : "All Posts - page 4", \
+          "category" : "page", \
+          "url"      : "/categories/all/categories/all/page/4/index.html", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "All Posts - page 5", \
+          "desc"     : "All Posts - page 5", \
+          "category" : "page", \
+          "url"      : "/categories/all/categories/all/page/5/index.html", \
+          "date"     : "January 1, 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
+
+
+
+ 
+
+
+
+<header class="header-section ">
+<div class="intro-header ">
+  
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="post-heading">
+          <h1>Fermat's Last Theorem</h1>
+          
+          
+           
+            
+            <span class="post-meta">Posted on June 16, 2024</span>
+            
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+
+</header>
+
+
+<main
+  class=" container-md "
+>
+  <div class="row">
+    <div
+      class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 "
+    >
+       
+
+      <div class="blog-post"><p>Recently, I finished reading the book, <a href="https://www.amazon.com/Fermats-Last-Theorem-Simon-Singh/dp/1841157910">Fermat’s Last Theorem</a> by <a href="https://simonsingh.net/">Simon Singh</a>, and loved it a lot. This is the first book I have completed in a long time, so that felt good. It’s also the first time I have read a book related to mathematics which is not a text book. Actually, the book is very far from being a text book. It’s a fun and interesting read about a theorem which was noted down in 1637 but proving which took mathematicians more than three centuries. For all these years, many mathematicians made it their life’s aim to prove this theorem but were unsuccessful. The book is a story of this journey full of interesting twists and turns. It also made me realize why I loved mathematics so much in school, especially before Greek alphabet took over and numbers became rare in maths classes.</p>
+
+<h3 id="who-was-pierre-de-fermat">Who was Pierre de Fermat?</h3>
+
+<p>The journey starts with <a href="https://en.wikipedia.org/wiki/Pierre_de_Fermat">Pierre de Fermat</a> who was a judge in the Parliament of Toulouse in the 17th century, one of the high courts in France. He was also a part-time mathematician and after doing his duties for the day, he would come back and just play around with numbers and come up with theorems in his free time. Fermat is remembered as one of the greatest mathematicians of his time, despite his “amateur” status as he was not a full time academic. He was also quite unique in his ways. Publication and recognition meant nothing to him and he was satisfied with the simple pleasure of being able to create new theorems undisturbed. When he would show his work to other mathematicians, it was also mainly to tease them. He would write letters to his British counterparts stating his most recent theorem without providing the accompanying proof. Then he would challenge his contemporaries to find the proof. He also had his own practical reasons for not publishing full fledged proofs. As Simon writes, “First, it meant that he did not have to waste time fully fleshing out his methods; instead he could rapidly proceed to his next conquest. Furthermore, he did not have to suffer jealous nit-picking. Once published, proofs would be examined and argued over by everyone and anyone who knew anything about the subject.”</p>
+
+<h3 id="fermats-bold-claim">Fermat’s bold claim</h3>
+
+<p>Around 1637, as he was working with his copy of an ancient Greek text, “Arithmetica” by Diophantus, he wrote a theorem in the margin of the book, which came to be known as Fermat’s Last Theorem. The theorem is actually pretty simple to understand. To understand Fermat’s theorem, let’s first look at another theorem which you would have probably read in school called <a href="https://en.wikipedia.org/wiki/Pythagorean_theorem">Pythagoras Theorem</a>. Pythagoras’ theorem states that in a right-angled triangle, the square of the largest side is equal to sum of square of other two sides. The numbers which satisfy this condition are known as Pythagorean triples. For example, 3, 4, 5 is a Pythagorean triple where square of 5 (25), equals the sum of square of 3 (9) and square of 4 (16). Similarly, you can come up with many such Pythagorean triples or more generally, you can find an unlimited combinations of a, b and c where</p>
+
+\[a^2+b^2 = c^2\]
+
+<p>Now, Fermat built on top of this. He took the following equation which seems very similar to the Pythagoras theorem:</p>
+
+\[a^n+b^n = c^n\]
+
+<p>He said that if n &gt; 2, you cannot find <em>any combination</em> of a, b and c which satisfy this equation for a, b and c being positive integers (like 1, 2, 3, 4 etc.) This is actually a very powerful statement. We already have a proven theorem that for n = 2, we have an unlimited number of combinations of a, b and c. Here, Fermat was claiming that you cannot find any such combinations for any other n greater than 2 that you can think of (Feel free to try some combinations). In his typical fashion, he also wrote that he had discovered a “truly marvelous proof” of this proposition that was too large to fit in the margin. Many mathematicians after him tried to find an example that would prove Fermat wrong but they couldn’t find any. So, people started assuming that Fermat’s claim is true but without a formal proof, mathematicians wouldn’t count this as a theorem.</p>
+
+<p>Over the years, there have been various memes about the this theorem. Source: <a href="https://mathwithbaddrawings.com/2021/06/03/if-fermat-had-wider-margins/">Mathwithbaddrawings</a></p>
+
+<p><img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d173c8b-7bcb-4584-8754-793d8074cef2_1080x1080.jpeg" alt="https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0d173c8b-7bcb-4584-8754-793d8074cef2_1080x1080.jpeg" /></p>
+
+<h3 id="mathematicians-and-their-precision">Mathematicians and Their Precision</h3>
+
+<p>Mathematicians are well known for being super precise and requiring nothing less than absolute proofs before accepting any statement. Their reputation is clearly expressed in a story told by Ian Stewart in Concepts of Modern Mathematics:</p>
+
+<blockquote>
+  <p>An astronomer, a physicist, and a mathematician (it is said) were holidaying in Scotland. Glancing from a train window, they observed a black sheep in the middle of a field. ‘How interesting,’ observed the astronomer, ‘all Scottish sheep are black!’ To which the physicist responded, ‘No, no! Some Scottish sheep are black!’ The mathematician gazed heavenward in supplication, and then intoned, ‘In Scotland there exists at least one field, containing at least one sheep, at least one side of which is black.’</p>
+</blockquote>
+
+<p>In some cases, mathematicians have been right to be suspicious. In the seventeenth century, mathematicians showed by detailed examination that the following numbers are all prime: 31; 331; 3,331; 33,331; 333,331; 3,333,331; 33,333,331. As a reminder, prime numbers are those who have no other factors apart from 1 and the number itself. For example, 23 is not divisible by any other number, apart from 1 and 23, and hence, it’s a prime number. On the other hand, we have a number such as 22, which is divisible by 2 and 11, apart from 1 and 22. Hence, 22 is not a prime number. Coming back to the pattern, the next numbers in the sequence became increasingly huge, and checking whether or not they were also prime would have taken considerable effort. At that time, some mathematicians were tempted to extrapolate from the pattern so far, and assume that all numbers of this form are prime. However, the next number in the pattern, 333,333,331, turned out not to be a prime:</p>
+
+\[333,333,331=17×19,607,843\]
+
+<p>Another good example where the suspicion was justified is Euler’s conjecture. You might have heard about <a href="https://en.wikipedia.org/wiki/Leonhard_Euler">Euler</a> in school mathematics as well. Euler is considered to be someone who created mathematics than anyone else in history. He also had a conjecture (a statement which has not yet been proven or disproven is referred to as a conjecture) very similar to Fermat’s. Euler’s conjecture states that there are no positive integers a, b, c, and d such that:</p>
+
+\[a^4+b^4+c^4 = d^4\]
+
+<p>For two hundred years, nobody could prove Euler’s conjecture, but on the other hand, nobody could disprove it by finding a set of numbers which satisfied this equation. First manual searches and then years of computer calculations failed to find a solution. Lack of a counter-example was strong evidence in favor of the conjecture. Then in 1988, Naom Elkies of Harvard University discovered the following solution:</p>
+
+\[2682440^4+15365639^4+18796760^4=20615673^4\]
+
+<p>Not easy to guess at all! Anyway, there was some suspicion about Fermat’s theorem also that just because no one had been able to find a solution, it didn’t make the statement true for all possible values.</p>
+
+<p>I’ll stop myself here and not give away the finale of the book or the theorem. I would highly recommend you to read it though. The book has many interesting stories such as what are friendly numbers, how the number 26 is indeed special, and of course, many more incidents related to Fermat’s last theorem, including how it once saved someone from committing suicide! Simon’s writing is also very easy to follow, and if you don’t have a hatred for mathematics, I think you will enjoy this book.</p>
+
+<!-- ## Favorites of the week
+
+**Series:** I recently finished watching the third season of Panchayat, and just like the previous two seasons, it does not disappoint. The episodes are very engaging and I didn’t want the series to end. Highly recommend for a feel good watch of rural politics in India.
+
+**Song:** The latest song by Satinder Sartaaj, [Makhmali raahan](https://youtu.be/_c5qm8jOuJ4?si=oWIaE7uaCkbjl38N) (literally meaning velvet roads), has a very catchy tune. I have been listening to it on repeat. Do give it a try.
+
+Thank you for reading!
+
+Until next time,
+
+Sagar -->
+</div>
+
+      
+      <div class="blog-tags">
+        <span>Tags:</span>
+        
+        <a href="/tags#Book of the month">Book of the month</a>
+        
+        <a href="/tags#Mathematics">Mathematics</a>
+        
+      </div>
+        
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a
+            class="page-link"
+            href="/2024-06-03-ten_years_since_college/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="A Decade Since College"
+          >
+            <i class="fas fa-arrow-left" alt="Previous Post"></i>
+            <span class="d-none d-sm-inline-block">Previous Post</span>
+          </a>
+        </li>
+         
+        <li class="page-item next">
+          <a
+            class="page-link"
+            href="/2024-08-24-gap_and_the_gain/"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Gap and the Gain"
+          >
+            <span class="d-none d-sm-inline-block">Next Post</span>
+            <i class="fas fa-arrow-right" alt="Next Post"></i>
+          </a>
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+  
+
+  
+
+
+
+    </div>
+  </div>
+</main>
+ <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        
+<ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="mailto:sagar_wadhwa@alumni.brown.edu" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/sagardstar" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/sagarwadhwa92" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://linkedin.com/in/sagarwadhwa1992" title="LinkedIn">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">LinkedIn</span>
+   </a>
+  </li></ul>
+
+ 
+        <p class="copyright text-muted">
+          
+          <!-- 2025  -->
+            
+        </p>
+        
+        <p class="theme-by text-muted">
+          Powered by
+          <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+        </p>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+  </body>
+</html>
