@@ -22,6 +22,7 @@ title: Sagar Wadhwa
 navbar-links:
   # About Me: "index"
   Research: "research"
+  Playground: "playground"
   Blog Categories:
     - All: "/categories/all"
     - Personal Finance: "/categories/finance"

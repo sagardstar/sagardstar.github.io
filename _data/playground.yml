@@ -1,0 +1,12 @@
+- title: 250 Card Game
+  description: I played this game a lot during PhD days. Recently, it became harder to find four people in the same room to play this, and a digital version wasn't available, so I created one using ChatGPT. Just choose a room number, and when four players enter the same room number, the cards are dealt and you are good to play.
+  url: https://card-game-250.onrender.com/
+  image: /assets/img/card_game_ui_snapshot.jpg
+- title: Weekly Companion
+  description: I wanted a low-pressure way to track weekly habits without streak anxiety or noisy notifications. With help from ChatGPT and Gemini, I built this gentle tracker that lets you pause habits when life gets busy.
+  url: https://weekly-companion.vercel.app/
+  image: /assets/img/weekly_companion_snapshot.png
+- title: Focus Timer
+  description: Plenty of focus timers exist already, I just wanted to create one which is warm and appealing to use, and pretty minimalistic in nature. No projects or tasks, just a place to manage focus sessions and breaks.
+  url: https://sagarwadhwa.com/timer_website
+  image: /assets/img/focus_timer_snapshot.png
