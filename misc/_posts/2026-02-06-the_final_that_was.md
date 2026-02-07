@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "The Final That Was"
-subtitle: "I wrote this in the days after India won the T20 World Cup in June 2024, but never got to publish it."
 tags: []
 ---
 
@@ -46,7 +45,7 @@ As the players took a break after the first innings, we also took some time to e
 
 The start of South Africa’s innings justified that optimism. Their first two wickets fell cheaply, and it seemed like it was going to be an easy defence, just like India’s match against England a couple of days earlier.
 
-But of course, it wasn’t going to be *that* easy.
+But of course, it wasn’t going to be _that_ easy.
 
 South Africa kept counter-attacking and maintained the required run rate. They needed 64 runs off 38 balls and had six wickets remaining. We still felt hopeful — as we had at least 18 balls to be bowled by pretty good bowlers.
 
@@ -92,7 +91,7 @@ We have finally won it! We can finally celebrate.
 
 We all stand up in celebration and start hugging each other like we have just played this match ourselves. There are smiles all around in the room, as well as on the TV. We are seeing players’ reactions that we have never seen. Hardik Pandya is in tears. Kohli is emotional. Rohit Sharma is down on the ground and hitting it with his hands. Even though he may have been saying they are treating it as just another match, we haven’t seen him thumping the ground like this after a victory in any other match in his 17 years of career. There is delight, there is excitement, but more than anything, there is relief.
 
-[![](/assets/posts/2026-02-07-the_final_that_was/https3a2f2fsubstack_post_medias3amazonawscom2fpublic2fimages2f90d95a3e_07b2_451b_8532_0a845ee5e27c_1280x784.avif)](https://substackcdn.com/image/fetch/$s_!Iurt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90d95a3e-07b2-451b-8532-0a845ee5e27c_1280x784.avif)
+[![](/assets/posts/2026-02-06-the_final_that_was/https3a2f2fsubstack_post_medias3amazonawscom2fpublic2fimages2f90d95a3e_07b2_451b_8532_0a845ee5e27c_1280x784.avif)](https://substackcdn.com/image/fetch/$s_!Iurt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90d95a3e-07b2-451b-8532-0a845ee5e27c_1280x784.avif)
 
 Image credits: BCCI
 
